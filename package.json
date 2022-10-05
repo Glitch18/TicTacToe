@@ -1,0 +1,18 @@
+{
+  "name": "tictactoe",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Atharva Nimbalkar",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "nodemon": "^2.0.20",
+    "readcommand": "^0.4.0",
+    "socket.io": "^4.5.2",
+    "socket.io-client": "^4.5.2"
+  },
+  "scripts": {
+    "server": "nodemon server.js 5050",
+    "client": "nodemon client.js 127.0.0.1 5050"
+  }
+}
